@@ -27,6 +27,8 @@ if ($_SERVER['REQUEST_URI'] === '/OOP/User/test') {
 }
 
 if ($_SERVER['REQUEST_URI'] === '/OOP/Calculator/test') {
+    echo "dawdaw";
+
     $controller = new CalculatorController();
     print_r($controller->test());
 }

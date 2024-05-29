@@ -1,7 +1,7 @@
 <?php
 namespace App\Controllers;
 
-defined('BASEPATH') OR exit('No direct script access allowed'); 
+// defined('BASEPATH') OR exit('No direct script access allowed'); 
 
 use App\Controllers\Abstract\PaymentAbstract;
 
@@ -106,6 +106,7 @@ class BaseController extends PaymentAbstract {
     public function query(){
         
     }
+
 
     
 }
